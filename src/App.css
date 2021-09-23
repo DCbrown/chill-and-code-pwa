@@ -3,7 +3,7 @@
 .header { 
   color: white;
   font-family: 'Dancing Script', cursive;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .container {
@@ -16,7 +16,7 @@
 }
 
 .card {
-  width: 400px;
+  width: 375px;
   margin: 10px auto 0;
   overflow: hidden;
   background-color: rgba(73, 71, 71, 0.397);
