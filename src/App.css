@@ -16,7 +16,7 @@
 }
 
 .card {
-  width: 375px;
+  width: 300px;
   margin: 10px auto 0;
   overflow: hidden;
   background-color: rgba(73, 71, 71, 0.397);
@@ -31,7 +31,6 @@
 }
 
 .audioPlayer {
-  width: 90%; 
   margin: 0 auto; 
   box-shadow: none; 
   background-color: rgba(255, 255, 255, 0);
