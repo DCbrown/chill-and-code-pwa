@@ -12,34 +12,44 @@ code {
     monospace;
 }
 
-@media (orientation: landscape) {
-  .scrollable-list {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 180px;
-    width: 300px;
-    overflow-y: scroll;
-    border: #ddd solid 1px;
-    list-style-type: none;
-    padding-left: 0;
-  }
+
+/* Portrait */
+@media only screen 
+  and (device-width : 414px) 
+  and (device-height : 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .scrollable-list {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      height: 180px;
+      width: 300px;
+      overflow-y: scroll;
+      border: #ddd solid 1px;
+      list-style-type: none;
+      padding-left: 0;
+    }
 }
 
-@media (orientation: portrait) {
-  .scrollable-list {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 90px;
-    width: 300px;
-    overflow-y: scroll;
-    border: #ddd solid 1px;
-    list-style-type: none;
-    padding-left: 0;
-  }
+/* Landscape */
+@media only screen 
+  and (device-width : 414px) 
+  and (device-height : 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .scrollable-list {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      height: 50px;
+      width: 300px;
+      overflow-y: scroll;
+      border: #ddd solid 1px;
+      list-style-type: none;
+      padding-left: 0;
+    }
 }
-
 
 
 .list-item {
