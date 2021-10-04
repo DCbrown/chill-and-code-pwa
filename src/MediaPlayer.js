@@ -1,6 +1,6 @@
 import React from 'react'
 import AudioPlayer from 'react-h5-audio-player';
-import Playlist from './Playlist';
+import Songlist from './Songist';
 import 'react-h5-audio-player/lib/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRandom } from '@fortawesome/free-solid-svg-icons'
@@ -46,7 +46,7 @@ const MediaPlayer = ({songs,
             
             {/*!isShuffle ? <button onClick={handleRandom}>Shuffle off</button> : <button onClick={handleRandom}>Shuffle on</button>*/}
 
-            <Playlist songs={songs} handleTrackPick={handleTrackPick} currentMusicIndex={currentMusicIndex}/>    
+            <Songlist songs={songs} handleTrackPick={handleTrackPick} currentMusicIndex={currentMusicIndex}/>    
         </div>
     )
 }

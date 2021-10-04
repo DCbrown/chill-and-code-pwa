@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Playlist = ({songs, handleTrackPick, currentMusicIndex}) => {
+const Songlist = ({songs, handleTrackPick, currentMusicIndex}) => {
     return (
         <div className="scrollable-list">
         {songs.map(song => {
@@ -15,4 +15,4 @@ const Playlist = ({songs, handleTrackPick, currentMusicIndex}) => {
     )
 }
 
-export default Playlist
+export default Songlist
