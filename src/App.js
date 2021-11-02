@@ -74,7 +74,7 @@ const songs = [
     name: 'Flight Fantastic', 
     artist:"Flamingosis feat ", 
     src: 'https://competent-bhabha-abd8d2.netlify.app/music/flight-fantastic.mp3'
-},
+  },
   
 ]
 
