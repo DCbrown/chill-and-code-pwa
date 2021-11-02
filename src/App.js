@@ -69,6 +69,12 @@ const songs = [
       artist:"The One-Ups", 
       src: 'https://competent-bhabha-abd8d2.netlify.app/music/toe-jam-earl-alien-break-down.mp3'
   },
+  { 
+    id: 11,
+    name: 'Flight Fantastic', 
+    artist:"Flamingosis feat. Birocratic", 
+    src: 'https://competent-bhabha-abd8d2.netlify.app/music/flamingosis-flight-fantastic.mp3'
+},
   
 ]
 
