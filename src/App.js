@@ -73,7 +73,7 @@ const songs = [
     id: 11,
     name: 'Pretending-to', 
     artist:"Tsutchie", 
-    src: 'https://competent-bhabha-abd8d2.netlify.app/music/flight-fantastic.mp3'
+    src: 'https://competent-bhabha-abd8d2.netlify.app/music/pretending-to.mp3'
   },
   { 
     id: 12,
