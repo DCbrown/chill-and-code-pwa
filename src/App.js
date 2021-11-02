@@ -81,6 +81,18 @@ const songs = [
     artist:"Flamingosis w/ Birocratic", 
     src: 'https://kind-hypatia-a5784c.netlify.app/music/flight-fantastic.mp3'
   },
+  { 
+    id: 13,
+    name: 'Boomer Kuwanger', 
+    artist:"The One-Ups", 
+    src: 'https://kind-hypatia-a5784c.netlify.app/music/boomer-kuwanger.mp3'
+  },
+  { 
+    id: 14,
+    name: 'Repaint Tomorrow', 
+    artist:"Fat Jon", 
+    src: 'https://kind-hypatia-a5784c.netlify.app/music/repaint-tomorrow.mp3'
+  },
   
 ]
 
