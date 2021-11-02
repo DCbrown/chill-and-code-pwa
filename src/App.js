@@ -73,7 +73,7 @@ const songs = [
     id: 11,
     name: 'Flight Fantastic', 
     artist:"Flamingosis feat ", 
-    src: 'https://competent-bhabha-abd8d2.netlify.app/music/flamingosis-flight-fantastic.mp3'
+    src: 'https://competent-bhabha-abd8d2.netlify.app/music/flight-fantastic.mp3'
 },
   
 ]
