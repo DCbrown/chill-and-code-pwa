@@ -78,7 +78,7 @@ const songs = [
   { 
     id: 12,
     name: 'Flight Fantastic', 
-    artist:"Flamingosis feat", 
+    artist:"Flamingosis w/ Birocratic", 
     src: 'https://kind-hypatia-a5784c.netlify.app/music/flight-fantastic.mp3'
   },
   
