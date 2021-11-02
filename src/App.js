@@ -71,7 +71,7 @@ const songs = [
   },
   { 
     id: 11,
-    name: 'Pretending-to', 
+    name: 'Pretending To', 
     artist:"Tsutchie", 
     src: 'https://kind-hypatia-a5784c.netlify.app/music/pretending-to.mp3'
   },
