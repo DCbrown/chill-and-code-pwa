@@ -140,7 +140,9 @@ function App() {
             handleTrackPick={handleTrackPick}
             isShuffle={isShuffle}
             currentMusicIndex={currentMusicIndex}
-            />  
+            />
+            <p>Made with ♥ By Donovan Brown</p>
+            <p>I do not own any of the songs</p>  
         </div>
       </div>
     </div>
